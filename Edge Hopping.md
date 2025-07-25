@@ -1,6 +1,6 @@
 # Akamai
 
-## Rate-Limit Bypass via Edge Hopping 
+## CVE-2025-54568 - Rate-Limit Bypass via Edge Hopping 
 
 ### Summary
 An issue was discovered in Akamai Rate Controls in which attackers were able to bypass rate-limiting by distributing high-volume requests to different Akamai edge servers. Because the states of the rate thresholds were maintained locally within the edges, attackers are able to hit a target at high velocity that's well above the stipulated thresholds. 
